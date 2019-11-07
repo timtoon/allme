@@ -27,7 +27,7 @@ The Controller::index() function expects an array of arrays in JSON format, and 
 
 SlotController::addSlot() will add a new slot for a stylist, provided there isn't already one.
 
-SlotController::removeSlot() will delete the specified slot, provided is exists and does not have a client.
+SlotController::removeSlot() will delete the specified slot, provided it exists and does not have a client.
 
 SlotController::bookAppointment() will add the client_id to an existing slot that is not already taken.
 
